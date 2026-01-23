@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zen - Jarvis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>Welcome Sir</h1>
+
+    <div id="chat" class="chat"></div>
+
+    <div class="input-bar">
+        <button id="voiceBtn" title="Voice Input">🎙️</button>
+        <button id="imageBtn" title="Image Input">📷</button>
+
+        <input
+            type="file"
+            id="imageInput"
+            accept="image/*"
+            hidden
+        />
+
+        <input
+            type="text"
+            id="input"
+            placeholder="Type your command, Sir..."
+            autocomplete="off"
+        />
+
+        <button id="sendBtn">Submit</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
